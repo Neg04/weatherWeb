@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(247, 242, 235, 0.3);
+}
+
+h1 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #701b27;
+}
+
+a {
+    font-style: italic;
+    text-decoration: none;
+    color: #c06c84;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid #e9dadf;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    max-width: 300px;
+    margin: 20px auto;
+
+}
+
+li {
+    font-family: 'Alkatra', cursive;
+    color: #701b27;
+}
+
+img {
+    width: 30px;
+}
+
+footer {
+    text-align: center;
+    transition: all 200ms ease-in;
+}
+
+.weatherapp {
+    background-color: #fffdfb;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid rgb(233, 203, 166);
+    border-radius: 10px;
+}
+
+.searchButton {
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    padding: 5px 10px;
+    border: 1px solid #c06c84;
+    border-radius: 5px;
+    color: #57385c;
+    transition: all 5s ease-out;
+    box-shadow: 1px 2px #e9dadf;
+}
+
+.searchButton:hover {
+    background: linear-gradient(to top, rgb(251, 194, 235) 0%, rgb(166, 193, 238) 100%);
+
+}
+
+.col-form-label {
+    border: 1px solid #c06c84;
+    border-radius: 5px;
+}
+
+.date {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.temp {
+    font-size: 30px;
+    color: #be3144;
+}
+
+
+.humidity {
+    display: inline;
+    padding-right: 30px;
+}
+
+.speed {
+    display: inline;
+    padding-left: 30px;
+}
+
+.myCode:hover {
+    color: #701b27;
+}
